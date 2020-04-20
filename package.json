@@ -1,5 +1,5 @@
 {
-  "homepage":"http://raboija.github.io/COVID19_Stats_CoronaTracker",
+  "homepage": "http://raboija.github.io/COVID19_Stats_CoronaTracker",
   "name": "corona_app",
   "version": "0.1.0",
   "private": true,
@@ -11,13 +11,15 @@
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
+    "deploy": "^1.0.3",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "run": "^1.4.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-scripts": "^3.4.1"
   }
 }
